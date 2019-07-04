@@ -1,0 +1,26 @@
+.commentContainer {
+  display: flex;
+  margin: 10px 0;
+}
+
+.commentContainer__img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.commentContainer__text {
+  margin: 0;
+  margin-left: 20px;
+  line-height: 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  background: #ebebeb;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.commentContainer__text__name {
+  font-weight: bold;
+  margin-right: 10px;
+}
